@@ -12,14 +12,11 @@ T and m.
 
 ## Status
 
-⚠️ **DRAFT — not legal-reviewed.** The current content is starter copy
-authored to describe what the app actually does (data flows, third-party
-processors, retention policy). It has not been reviewed by counsel and
-should not be treated as final.
-
-Each page carries a prominent draft banner so visitors and App Store
-reviewers see the warning. Replace the banner + tighten the wording
-before TestFlight cut.
+Published. Pages describe what the YardRx iOS app does today — data
+flows, third-party processors, retention policy. Bump the
+"Last updated" line at the top of each page when you make material
+changes; for non-material edits (typo fixes, formatting), leave the
+date.
 
 ## Structure
 
@@ -47,5 +44,3 @@ the top of each document.
 ## Contact
 
 Questions about the documents: see the contact section on each page.
-The placeholder address `support@yardrx.app` should be replaced with a
-working address before public release.
