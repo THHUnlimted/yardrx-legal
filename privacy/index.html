@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — YardRx</title>
+  <meta name="description" content="What YardRx collects, why, who we share it with, and how to delete it.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">YardRx iOS app. Last updated: 2026-05-09.</p>
+
+    <section class="draft-banner" role="alert" aria-live="polite">
+      <strong>DRAFT — not yet legal-reviewed</strong>
+      <p>This is starter copy describing what the app does today. It has not been reviewed by counsel. The published version may differ.</p>
+    </section>
+
+    <p>This policy explains what information YardRx collects, why we collect it, who we share it with, and how you can delete it. We try to keep it short and concrete.</p>
+
+    <h2>What we collect</h2>
+
+    <h3>Information you give us directly</h3>
+    <ul>
+      <li><strong>Photos of your lawn.</strong> When you take a check-up or track-a-spot photo, the image is uploaded to our servers so we can analyze it.</li>
+      <li><strong>Property details.</strong> A nickname for your yard and your ZIP code. ZIP is used to fetch local weather; we do not collect a precise street address.</li>
+      <li><strong>Account profile.</strong> The email address and display name associated with your account, provided when you sign up.</li>
+    </ul>
+
+    <h3>Information we collect automatically</h3>
+    <ul>
+      <li><strong>Approximate location, if you grant permission.</strong> If you allow location access during onboarding, we use it once to suggest your ZIP code. You can decline and enter your ZIP manually instead — the app works the same way.</li>
+      <li><strong>Usage and diagnostic data.</strong> When the app encounters an error, we collect a crash report. These reports are stripped of personal information (we do not capture your email, name, or photos in error reports).</li>
+      <li><strong>Subscription state.</strong> Whether you have an active Premium subscription, the product ID, and renewal date. We receive this from Apple via our payments provider; we do not see your payment method or App Store account credentials.</li>
+    </ul>
+
+    <h3>Information we generate from your photos</h3>
+    <p>When you upload a photo, our system runs an AI diagnosis on it and stores the result alongside your photo. This includes a likely-issue label, a confidence level, a brief written narrative, and a comparative score relative to your earlier photos. This data exists so the app can show you trends over time.</p>
+
+    <h2>Why we collect it</h2>
+    <ul>
+      <li>To run the diagnosis the app exists to provide.</li>
+      <li>To show you how your lawn changes from week to week.</li>
+      <li>To generate the 30-day report you can view in Settings.</li>
+      <li>To check your active subscription before unlocking premium features.</li>
+      <li>To diagnose crashes and bugs so we can fix them.</li>
+    </ul>
+
+    <h2>Who we share it with</h2>
+
+    <p>We use a small number of third-party services to run the app. We do not sell your data, and we do not share it with advertisers.</p>
+
+    <ul>
+      <li><strong>Apple</strong> — Sign in with Apple, App Store payments, push notifications (if enabled), and Apple WeatherKit (which receives your ZIP-derived location to return weather data). Apple's privacy policies apply to the data they receive.</li>
+      <li><strong>Clerk</strong> — our authentication provider. Clerk stores your email and the credentials you used to sign up.</li>
+      <li><strong>RevenueCat</strong> — our subscription provider. RevenueCat receives an anonymous user ID and your subscription events from Apple to track entitlement state.</li>
+      <li><strong>Microsoft Azure</strong> — our cloud provider. Your photos are stored in Azure Blob Storage. Photo content is sent to Azure OpenAI Service to generate the AI diagnosis. Microsoft's enterprise data terms apply: photos sent for AI processing are not used to train OpenAI's foundation models.</li>
+      <li><strong>Sentry</strong> — our crash-reporting provider. Sentry receives error and performance data with personal identifiers removed.</li>
+    </ul>
+
+    <h2>How long we keep it</h2>
+    <ul>
+      <li><strong>Your photos and account data</strong> are kept while your account is active.</li>
+      <li><strong>When you delete your account</strong> from Settings → Delete account, we permanently remove your photos, scans, plans, reports, and account record from our servers and from our third-party providers (Clerk, Azure storage). This is not reversible.</li>
+      <li><strong>Audit log.</strong> After deletion, we keep a small audit row noting that the deletion happened — the original Clerk user ID, the email at deletion (so you can contact us if you need confirmation), the timestamp, and a count of files removed. This row contains no other data and is kept indefinitely as a record that the deletion occurred.</li>
+      <li><strong>Subscriptions are not auto-cancelled when you delete your account.</strong> If you have an active subscription, cancel it in your iPhone's Settings → Apple ID → Subscriptions <em>before</em> deleting, or you may continue to be charged.</li>
+    </ul>
+
+    <h2>Your choices</h2>
+    <ul>
+      <li><strong>Delete your account at any time.</strong> Settings → Delete account. The action is gated behind a typed confirmation so you don't trigger it by accident.</li>
+      <li><strong>Edit your profile.</strong> Change your display name in Settings → Name.</li>
+      <li><strong>Decline location access.</strong> The app works the same way; ZIP is the only location signal we need, and you can type it in.</li>
+      <li><strong>Decline notifications.</strong> If you choose not to allow push notifications, the app keeps working.</li>
+      <li><strong>Request a copy of your data.</strong> Email <a href="mailto:support@yardrx.app">support@yardrx.app</a> from your account email.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>YardRx is not directed at children under 13 and we do not knowingly collect information from them. The App Store age rating is 4+, but the app is intended for adult homeowners or renters.</p>
+
+    <h2>Security</h2>
+    <p>We use HTTPS for all traffic between the app and our servers. Photos in storage are encrypted at rest. We rely on Apple Sign in with Apple as the primary authentication method, which keeps your password out of our system entirely.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If we make material changes — for example, adding a new third-party processor — we'll update this page and bump the "last updated" date at the top. Continued use of the app after a change means you accept the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or concerns: <a href="mailto:support@yardrx.app">support@yardrx.app</a> <em>(placeholder address — to be updated before App Store submission).</em></p>
+
+    <p class="nav"><a href="../">← Back to documents</a></p>
+  </main>
+
+  <footer>
+    <p>© 2026 THHUnlimted. All rights reserved.</p>
+  </footer>
+</body>
+</html>
