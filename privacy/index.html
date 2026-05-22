@@ -10,7 +10,7 @@
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="subtitle">YardRx iOS app. Last updated: 2026-05-09.</p>
+    <p class="subtitle">YardRx iOS app. Last updated: 2026-05-22.</p>
 
     <p>This policy explains what information YardRx collects, why we collect it, who we share it with, and how you can delete it. We try to keep it short and concrete.</p>
 
@@ -21,17 +21,20 @@
       <li><strong>Photos of your lawn.</strong> When you take a check-up or track-a-spot photo, the image is uploaded to our servers so we can analyze it.</li>
       <li><strong>Property details.</strong> A nickname for your yard and your ZIP code. ZIP is used to fetch local weather; we do not collect a precise street address.</li>
       <li><strong>Account profile.</strong> The email address and display name associated with your account, provided when you sign up.</li>
+      <li><strong>Chat messages.</strong> When you use the in-app lawn coach (Premium), the messages you type are sent to our AI provider (Microsoft Azure OpenAI) to generate a reply. We store the conversation so you can see your history.</li>
+      <li><strong>Goals and answers.</strong> The lawn goals you pick and the short answers you give during onboarding (for example, what you're trying to fix) so the app can tailor your diagnosis and plan.</li>
     </ul>
 
     <h3>Information we collect automatically</h3>
     <ul>
       <li><strong>Approximate location, if you grant permission.</strong> If you allow location access during onboarding, we use it once to suggest your ZIP code. You can decline and enter your ZIP manually instead — the app works the same way.</li>
       <li><strong>Usage and diagnostic data.</strong> When the app encounters an error, we collect a crash report. These reports are stripped of personal information (we do not capture your email, name, or photos in error reports).</li>
+      <li><strong>In-app interaction events.</strong> We record anonymous events about how you use the app — for example, viewing the paywall, starting or cancelling a subscription, or being shown a review prompt — to understand which features are used and improve them. These events are not used for advertising and are never sold.</li>
       <li><strong>Subscription state.</strong> Whether you have an active Premium subscription, the product ID, and renewal date. We receive this from Apple via our payments provider; we do not see your payment method or App Store account credentials.</li>
     </ul>
 
     <h3>Information we generate from your photos</h3>
-    <p>When you upload a photo, our system runs an AI diagnosis on it and stores the result alongside your photo. This includes a likely-issue label, a confidence level, a brief written narrative, and a comparative score relative to your earlier photos. This data exists so the app can show you trends over time.</p>
+    <p>When you upload a photo, our system runs an AI diagnosis on it and stores the result alongside your photo. This includes a likely-issue label, a confidence level, a brief written narrative, and a comparative score relative to your earlier photos. We may also generate a preview image showing how your lawn could look after improvement. This data exists so the app can show you trends and goals over time.</p>
 
     <h2>Why we collect it</h2>
     <ul>
@@ -47,7 +50,7 @@
     <p>We use a small number of third-party services to run the app. We do not sell your data, and we do not share it with advertisers.</p>
 
     <ul>
-      <li><strong>Apple</strong> — Sign in with Apple, App Store payments, push notifications (if enabled), and Apple WeatherKit (which receives your ZIP-derived location to return weather data). Apple's privacy policies apply to the data they receive.</li>
+      <li><strong>Apple</strong> — Sign in with Apple, App Store payments, and Apple WeatherKit (which receives your ZIP-derived location to return weather data). Apple's privacy policies apply to the data they receive.</li>
       <li><strong>Clerk</strong> — our authentication provider. Clerk stores your email and the credentials you used to sign up.</li>
       <li><strong>RevenueCat</strong> — our subscription provider. RevenueCat receives an anonymous user ID and your subscription events from Apple to track entitlement state.</li>
       <li><strong>Microsoft Azure</strong> — our cloud provider. Your photos are stored in Azure Blob Storage. Photo content is sent to Azure OpenAI Service to generate the AI diagnosis. Microsoft's enterprise data terms apply: photos sent for AI processing are not used to train OpenAI's foundation models.</li>
@@ -67,7 +70,6 @@
       <li><strong>Delete your account at any time.</strong> Settings → Delete account. The action is gated behind a typed confirmation so you don't trigger it by accident.</li>
       <li><strong>Edit your profile.</strong> Change your display name in Settings → Name.</li>
       <li><strong>Decline location access.</strong> The app works the same way; ZIP is the only location signal we need, and you can type it in.</li>
-      <li><strong>Decline notifications.</strong> If you choose not to allow push notifications, the app keeps working.</li>
       <li><strong>Request a copy of your data.</strong> Email <a href="mailto:support@yardrx.app">support@yardrx.app</a> from your account email.</li>
     </ul>
 
