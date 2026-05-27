@@ -10,7 +10,7 @@
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="subtitle">YardRx iOS app. Last updated: 2026-05-22.</p>
+    <p class="subtitle">YardRx iOS app. Last updated: 2026-05-26.</p>
 
     <p>This policy explains what information YardRx collects, why we collect it, who we share it with, and how you can delete it. We try to keep it short and concrete.</p>
 
@@ -36,6 +36,17 @@
     <h3>Information we generate from your photos</h3>
     <p>When you upload a photo, our system runs an AI diagnosis on it and stores the result alongside your photo. This includes a likely-issue label, a confidence level, a brief written narrative, and a comparative score relative to your earlier photos. We may also generate a preview image showing how your lawn could look after improvement. This data exists so the app can show you trends and goals over time.</p>
 
+    <h2>How we use AI</h2>
+    <p>YardRx uses third-party AI to generate your lawn diagnosis, your AI goal preview, and your chat-coach replies. The AI provider is <strong>Microsoft Azure OpenAI Service</strong> (operated by Microsoft, not OpenAI Inc.).</p>
+    <p>When you upload a photo or send a chat message, the content is transmitted to Azure OpenAI over an encrypted connection, processed to produce a response, and the result is returned to your device. Under the enterprise terms that govern our Azure account:</p>
+    <ul>
+      <li>Your data is <strong>not</strong> used to train OpenAI's or Microsoft's foundation models.</li>
+      <li>Your data is <strong>not</strong> shared with the public OpenAI company.</li>
+      <li>Microsoft retains your inputs only for abuse-monitoring purposes for up to 30 days, then deletes them.</li>
+    </ul>
+    <p>You can review Microsoft's data-handling commitments for Azure OpenAI here: <a href="https://learn.microsoft.com/azure/ai-services/openai/concepts/data-privacy">https://learn.microsoft.com/azure/ai-services/openai/concepts/data-privacy</a>.</p>
+    <p>By creating a YardRx account and uploading photos or sending chat messages, you consent to this AI processing. You can revoke consent at any time by deleting your account (Settings → Delete account), which removes your photos and chat history from our systems.</p>
+
     <h2>Why we collect it</h2>
     <ul>
       <li>To run the diagnosis the app exists to provide.</li>
@@ -53,7 +64,7 @@
       <li><strong>Apple</strong> — Sign in with Apple, App Store payments, and Apple WeatherKit (which receives your ZIP-derived location to return weather data). Apple's privacy policies apply to the data they receive.</li>
       <li><strong>Clerk</strong> — our authentication provider. Clerk stores your email and the credentials you used to sign up.</li>
       <li><strong>RevenueCat</strong> — our subscription provider. RevenueCat receives an anonymous user ID and your subscription events from Apple to track entitlement state.</li>
-      <li><strong>Microsoft Azure</strong> — our cloud provider. Your photos are stored in Azure Blob Storage. Photo content is sent to Azure OpenAI Service to generate the AI diagnosis. Microsoft's enterprise data terms apply: photos sent for AI processing are not used to train OpenAI's foundation models.</li>
+      <li><strong>Microsoft Azure</strong> — our cloud provider and AI processor. Your photos are stored in Azure Blob Storage (encrypted at rest). Photo content and chat messages are sent to Azure OpenAI Service to generate AI diagnoses, goal previews, and chat-coach replies. See "How we use AI" above for full details.</li>
       <li><strong>Sentry</strong> — our crash-reporting provider. Sentry receives error and performance data with personal identifiers removed.</li>
     </ul>
 
